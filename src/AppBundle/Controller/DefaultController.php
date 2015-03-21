@@ -283,6 +283,15 @@ public function  dwochglupichAction()
     /*
      * M
      */
+ /**
+    * @Route("/Mezczyzna.html", name="Mezczyzna")
+    */
+    public function MezczyznaToAction()
+    {
+        return $this->render('default/Mezczyzna.html.twig');
+    }
+
+
     /**
     * @Route("/bujac-to.html", name="bujac-to")
     */
